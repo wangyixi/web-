@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>照片详情</title>
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/one-page-wonder.css" rel="stylesheet">
+    <link href="css/music.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/base.css" />
+
+    <script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
+
+    <script src="https://cdn.staticfile.org/twitter-bootstrap/4.1.0/js/bootstrap.min.js"></script>
+
+
+    <script>
+        document.documentElement.className = "js";
+        var supportsCssVars = function() {
+            var e, t = document.createElement("style");
+            return t.innerHTML = "root: { --tmp-var: bold; }", document.head.appendChild(t), e = !!(window.CSS && window.CSS.supports && window.CSS.supports("font-weight", "var(--tmp-var)")), t.parentNode.removeChild(t), e
+        };
+        supportsCssVars() || alert("Please view this demo in a modern browser that supports CSS Variables.");
+    </script>
+</head>
+
+<body>
+    <div class="overlay" style="overflow: auto">
+        <div class="overlay__reveal"></div>
+        <div class="" id="preview-1">
+            <div class="box" style="margin-top:100px;margin-bottom:100px">
+                <img class="box__img box__img--original view_img" src="img/original/1.jpg" alt="Some image" />
+                <img class="box__img box__img--original view_img" src="img/original/1.jpg" alt="Some image" />
+                <img class="box__img box__img--original view_img" src="img/original/1.jpg" alt="Some image" />
+                <img class="box__img box__img--original view_img" src="img/original/1.jpg" alt="Some image" />
+                <h3 class="box__title"><span class="box__title-inner">Memo</span></h3>
+                <h4 class="box__text"><span class="box__text-inner">Beast</span></h4>
+                <div class="box__deco">&#10014;</div>
+                <div class="box__shadow"></div>
+            </div>
+            <p class="overlay__content view-content">It's time the tale were told of how you took a child and you made him old.</p>
+        </div>
+    </div>
+    <!-- Footer -->
+    <footer class="foot bg-black fixed-bottom">
+        <div class="container">
+            <p class="m-0 text-center text-white">Copyright &copy; Leah Dou Onlie author by c2h4 2018</p>
+        </div>
+        <!-- /.container -->
+    </footer>
+</body>
+
+</html>
