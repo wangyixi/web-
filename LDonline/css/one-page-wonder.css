@@ -34,7 +34,19 @@ h6 {
     background-color: rgba(0, 0, 0, 0.7);
 }
 
+.navbar-custom-home {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
 .navbar-custom .navbar-brand {
+    text-transform: uppercase;
+    font-size: 2rem;
+    letter-spacing: 0.1rem;
+    font-weight: 700;
+}
+
+.navbar-custom-home .navbar-brand {
     text-transform: uppercase;
     font-size: 2rem;
     letter-spacing: 0.1rem;
@@ -43,6 +55,12 @@ h6 {
 
 @media (max-width: 992px) {
     .navbar-custom .navbar-brand {
+        text-transform: uppercase;
+        font-size: 1rem;
+        letter-spacing: 0.1rem;
+        font-weight: 700;
+    }
+    .navbar-custom-home .navbar-brand {
         text-transform: uppercase;
         font-size: 1rem;
         letter-spacing: 0.1rem;
@@ -57,10 +75,35 @@ h6 {
     letter-spacing: 0.1rem;
 }
 
+.navbar-custom-home .navbar-nav .nav-item .nav-link {
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+}
+
 @media (max-width: 992px) {
-    .navbar-custom .navbar-nav .nav-item . {
+    .navbar-custom .navbar-nav .nav-item {
         text-transform: uppercase;
         font-size: 0.5rem;
+        font-weight: 700;
+        letter-spacing: 0.1rem;
+    }
+    .navbar-custom-home .navbar-nav .nav-item {
+        text-transform: uppercase;
+        font-size: 0.5rem;
+        font-weight: 700;
+        letter-spacing: 0.1rem;
+    }
+    .navbar-custom .navbar-nav .nav-item .nav-link {
+        text-transform: uppercase;
+        font-size: 1rem;
+        font-weight: 700;
+        letter-spacing: 0.1rem;
+    }
+    .navbar-custom-home .navbar-nav .nav-item .nav-link {
+        text-transform: uppercase;
+        font-size: 1rem;
         font-weight: 700;
         letter-spacing: 0.1rem;
     }
